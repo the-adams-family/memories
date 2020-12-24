@@ -4,6 +4,12 @@ layout: page
 {%- assign items = site.data[site.metadata] -%}
 <div class="row">
   
+  <div class="col-md-12">
+    
+    {% include index/featured-terms.html field="subject" field="location" title="topics" btn-color="info" featured=site.data.theme.featured-subjects max=site.data.theme.featured-subjects-max %}
+    
+  </div>
+  
   <div class="col-md-8">
 
   {% include index/carousel.html %}
@@ -16,7 +22,6 @@ layout: page
     
     {% include index/time.html %}
 
-    {% include index/featured-terms.html field="subject" field="location" title="topics" btn-color="info" featured=site.data.theme.featured-subjects max=site.data.theme.featured-subjects-max %}
 
   </div>
   
