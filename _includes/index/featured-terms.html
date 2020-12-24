@@ -19,7 +19,7 @@
 {% endcomment %}
 
 {% assign termsField = include.field | default: "subject" %}
-{% assign termsMax = include.max | default: 4 %}
+{% assign termsMax = include.max | default: 30 %}
 
 {% comment %} 
     Liquid below cleans and counts unique terms 
