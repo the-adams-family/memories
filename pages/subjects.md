@@ -6,4 +6,4 @@ permalink: /subjects.html
 # a cloud visualization will be added below the content in this file
 ---
 
-## Browse Subjects
+## browse subjects and locations
