@@ -6,4 +6,4 @@ permalink: /locations.html
 # a cloud visualization will be added below the content in this file
 ---
 
-## Browse Locations
+## browse locations
